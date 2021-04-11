@@ -96,57 +96,40 @@
 > An analysis that defines requirements, constraints and scope of a solution in the form of a SRS (Software Requirements Specification)
 
 1. Introduction
-1.1 Client 
-Ola is a Brazilian barbeque resturant which located in Australia. 
-
-1.2 Problem description
-Recently they are expanding their business, which requires a website for costumers to check out discounts and events, ordering online and give feedback.
-
-1.3 Purpose & audience
-The objectives including allowing in-restaurant costumers to order food, outside customers to check out discounts and events, manager to publish discounts and events, all people using the application to give suggestions to the website, developer to recieve suggestions. 
+	1. Client: Ola is a Brazilian barbeque resturant which located in Australia. 
+	2. Problem description: Recently they are expanding their business, which requires a website for costumers to check out discounts and events, ordering online and give feedback.
+	3. Purpose & audience: The objectives including allowing in-restaurant costumers to order food, outside customers to check out discounts and events, manager to publish discounts and events, all people using the application to give suggestions to the website, developer to recieve suggestions. 
 
 2. System Description
-2.1 Project scope 
-The system does not require an authentication system or financial transaction system. The main function is for information transferring. 
+	1. Project scope: The system does not require an authentication system or financial transaction system. The main function is for information transferring. 
+	2. User characteristics 
+		* Business owner, manager, who can organize and publish discounts and events.
+		* Chief: recieve orders, add or remove dishes to the menu.
+		* customers: sent orders
 
-2.2 User characteristics 
-
-* Business owner, manager, who can organize and publish discounts and events.
-
-* Chief: recieve orders, add or remove dishes to the menu.
-
-* customers: sent orders
-
-2.3 Environmental characteristics 
-mobile phone, laptop, any device that has a screen and is connected to network will have access to the website. 
+3. Environmental characteristics
+* mobile phone, laptop, any device that has a screen and is connected to network will have access to the website. 
 
 3. Constraints
-3.1 Economics
-The website is not for profit, though it is expected to grow the business. From this aspect, we need to make functionality as easy and understandable.
- 
-3.2 Functionality
-The key functions listed:
-Backend
-	- dish menu
-	- feedback
-	- orders
-Frontend
-	- discounts and events feed
-	- menu to display and form to order
+	1. Economics: The website is not for profit, though it is expected to grow the business. From this aspect, we need to make functionality as easy and understandable.
+	2. Functionality: The key functions listed:
+		* Backend
+			- dish menu
+			- feedback
+			- orders
+		* Frontend
+			- discounts and events feed
+			- menu to display and form to order
 
-3.3 Deadline
-Tue 20 Apr 2020
+4. Deadline
+* Tue 20 Apr 2020
 
-3. System Features
-3.1 Functional requirements 
-nav bar consistantly exist in app application. home page display carousel to show special dishes, provide links to social media. about page provide video. services page offers customers with menu, each dish has a price and an image. feedback page allow user to contact developer in noreply. 
+5. System Features
+	1. Functional requirements: navigation bar consistantly exist in app application. home page display carousel to show special dishes, provide links to social media. about page provide video. services page offers customers with menu, each dish has a price and an image. feedback page allow user to contact developer in noreply. 
 
 4. Non-functional Requirements
-4.1 Legal Responsibility
-The website must strictly follows "Website Legal Requirements Australia", which it mustn't leak out user's private information and mustn't cause any damage to the user's equipment. 
-
-4.2 Convenience & User Protection
-use relative sizing to allow user to visit the website in any device. the system does not have an authentication system, hence users are perfectly save without any risk of information leaking. 
+	1. Legal Responsibility: The website must strictly follows "Website Legal Requirements Australia", which it mustn't leak out user's private information and mustn't cause any damage to the user's equipment. 
+	2. Convenience & User Protection: use relative sizing to allow user to visit the website in any device. the system does not have an authentication system, hence users are perfectly save without any risk of information leaking. 
 
 <hr />
 
