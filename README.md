@@ -503,9 +503,8 @@
 	> article: Sample Texts for Restaurants to Run Successful SMS Campaign
 	> url: https://medium.com/@sm.adnsms/sample-texts-for-restaurants-to-run-successful-sms-campaign-b60a81baf61d
 
-### Tools used
+#### (3)
 
-#### (1)
-
-	> [draw context, data-flow, user-cases diagrams](https://www.diagrameditor.com)
+	> tool: draw context, data-flow, user-cases diagrams
+	> url: https://www.diagrameditor.com
 
