@@ -1,6 +1,3 @@
-# Website-OlaBBQ
-for customers to checkout discounts, events, order food and give feedback.
-
 # Design Brief
 
 > Ola is a Brazilian barbeque resturant which located in Australia. Recently they are expanding their business, which requires a website for costumers to check out discounts and events, ordering online and give feedback. 
@@ -9,6 +6,7 @@ for customers to checkout discounts, events, order food and give feedback.
 
 # Gannt Chart
 
+![gannt chart](https://github.com/Weilory/Website-OlaBBQ/static/gannt-chart.png)
 
 <hr />
 
@@ -18,19 +16,25 @@ for customers to checkout discounts, events, order food and give feedback.
 >	Waterfall, Agile and Spiral models are three main models to abstract in this report, which are the basic prototypes. Nowadays, they are easiest and most popular ones for people to use. 
 > 	Waterfall development model features factorial development, which is traditional step-by-step SDLC (Software Development Life Cycle) development model which requires developer’s clear identification to production factors. Procedures such as analysis, design, implementation, testing and maintenance (TP, 2020) This model is always utilised together with Software Requirements Specification (SRS), which contains a complete description of the behaviour of the software to be developed, both functionally and non-functionally. The strength includes convenience and easiness, sustainability which addressed by fully documentation, each part of progress is accessible, which makes the conclusion of the project welly defined from the beginning. However, it lacks of flexibility due to rigid process also, detailed documentation may cause stress as reading, and, the software will only be allowable at the end of timeline (TP, 2007) Therefore, not suitable for magnificent project as logic thread corrupts when meets chasm between each stages. 
 
-[The Waterfall Model @ Liu](!)
+![The Waterfall Model @ Liu](https://github.com/Weilory/Website-OlaBBQ/static/waterfull.jpg)
 
 > Verification and validation model is famous for its V-shaped developing shape, with each conduction corresponding to a plan pre-step, through the process of validation (Powell-Morse, 2016) Functionality is guarantined as well as validity. V-model can be regarded as a modified-Waterfall-model, the main differences which specified validation technical architecture design is include in v-model. The planning steps including verification, Requirements, design contributes to build up for system configuration development, steps of validations including Unit and integration, installation, functionality dedicates to validate system configuration development according to requirements asserted at the start. Apparently, v-model performs in high functionality and requires lots of validating logic, which would be absolutely suitable for magnificent project of many functionality, however, it can be extremely complex, especially when the target audience’s requirements varies.  
 
-[V-model for Testing @Donald Firesmith](!)
+![V-model for Testing @Donald Firesmith](https://github.com/Weilory/Website-OlaBBQ/static/v.jpg)
+
+> V-model for Testing @Donald Firesmith
 
 > Agile model is a methodology for modelling and documenting software systems based on best practices. There are many Agile methodologies, such as Extreme Programming (XP), Scrum, Dynamic System Development Method, Crystal Method, Feature-Driven Development, Lean Development, Adaptive Software Development. (CS SJSU) Agile models are based on a collection of values and principles, that can be applied on an agile software development project (Wikipedia). The agile methodology involves individual and interactions over process and tools, working software over comprehensive documentation, customer collaboration over contact negotiation, responding to change over following a plan. Overall, Agile software model prefers flexibility, communication, collaboration and simplicity. In this model, a life cycle of plan, design, build, test and finally review is repeated over and over again, therefore the software is fast to release with new functionality. The main advantage of agile model attributes to the idea of collaboration, stating the goal and get people involved and try to solve the problem together. GitHub collaborating project exemplifies software agile model, which signifies the idea of bringing people together and contribute to the project (Unito, 2018). Agile model enables quick release, once the software passes Minimum Viable Product (MVP), the product can be accepted. The other popular kind other than scrum, refers to Lean Model, which is a continuous flow method, whereas Agile Begins a new iteration. The design process of Agile model regarded as “Scrum” allows a modifiable circulation in the developing process of a software. A scrum circle involves product backlog, which are requirements arranged for the production, sprint backlog, which is comprised of the highest priority requirements (usually functionality), third step sprint indicates work done for each day, finally Release, each sprint result in key functionality being delivered. The benefits of Agile software development cycle including short and rapid interactions segment the project, functional requirements can be modified quickly, and risks are reduced. It can also result in early product release and clients can have close look to check if their expectation is satisfied (Segue, 2015). However, using an agile modelling requiring developing skills of the developer, with ability to listen and respond to clients.
 
-[Agile Model: Method Driven Implement @CS](!)
+![Agile Model: Method Driven Implement @CS](https://github.com/Weilory/Website-OlaBBQ/static/agile.png)
+
+> Agile Model: Method Driven Implement @CS
 
 > The last on to introduce refers to Spiral Development Model, which is very similar to Scrum Agile Model we already discussed. The Spiral Model is famous for iteration, repetitions of the process eliminate the risk and guaranines the quality. Once the application satisfies MVP (Minimum Viable Product), it can be released. Four significant steps, determine objectives, identify risks, development and test, plan and next iteration allows quick development. As shown above, Spiral Development Model differs from Scrum Agile Model from risk-preventing procedure, which the prototype of Spiral is designed for risk-elimination. However, due to large amount of documentation and iterations, it’s more time-consuming, therefore, Spiral model costs more economically. As well, high skills sets are necessary for each stage to be effective. 
 
-[Spiral Model: Risk Driven Methodology @Thorsten Quandt](!)
+![Spiral Model: Risk Driven Methodology @Thorsten Quandt](https://github.com/Weilory/Website-OlaBBQ/static/spiral.png)
+
+> Spiral Model: Risk Driven Methodology @Thorsten Quandt
 
 
 > Ola Brazilian Restuarant Project is suitable for Agile Model. The reasons follows by
@@ -71,26 +75,97 @@ for customers to checkout discounts, events, order food and give feedback.
 
 # Context Diagram
 
+![context-diagram](https://github.com/Weilory/Website-OlaBBQ/static/context-diagram)
+
 <hr />
 
 # Data Flow Diagram
+
+![data-flow-diagram](https://github.com/Weilory/Website-OlaBBQ/static/data-flow-diagram.png)
 
 <hr />
 
 # User Cases Diagram
 
+![user-cases-diagram](https://github.com/Weilory/Website-OlaBBQ/static/user-cases-diagram)
 
 <hr />
 
 # SRS
 
+> An analysis that defines requirements, constraints and scope of a solution in the form of a SRS (Software Requirements Specification)
+
+1. Introduction
+1.1 Client 
+Ola is a Brazilian barbeque resturant which located in Australia. 
+
+1.2 Problem description
+Recently they are expanding their business, which requires a website for costumers to check out discounts and events, ordering online and give feedback.
+
+1.3 Purpose & audience
+The objectives including allowing in-restaurant costumers to order food, outside customers to check out discounts and events, manager to publish discounts and events, all people using the application to give suggestions to the website, developer to recieve suggestions. 
+
+2. System Description
+2.1 Project scope 
+The system does not require an authentication system or financial transaction system. The main function is for information transferring. 
+
+2.2 User characteristics 
+
+* Business owner, manager, who can organize and publish discounts and events.
+
+* Chief: recieve orders, add or remove dishes to the menu.
+
+* customers: sent orders
+
+2.3 Environmental characteristics 
+mobile phone, laptop, any device that has a screen and is connected to network will have access to the website. 
+
+3. Constraints
+3.1 Economics
+The website is not for profit, though it is expected to grow the business. From this aspect, we need to make functionality as easy and understandable.
+ 
+3.2 Functionality
+The key functions listed:
+Backend
+	- dish menu
+	- feedback
+	- orders
+Frontend
+	- discounts and events feed
+	- menu to display and form to order
+
+3.3 Deadline
+Tue 20 Apr 2020
+
+3. System Features
+3.1 Functional requirements 
+nav bar consistantly exist in app application. home page display carousel to show special dishes, provide links to social media. about page provide video. services page offers customers with menu, each dish has a price and an image. feedback page allow user to contact developer in noreply. 
+
+4. Non-functional Requirements
+4.1 Legal Responsibility
+The website must strictly follows "Website Legal Requirements Australia", which it mustn't leak out user's private information and mustn't cause any damage to the user's equipment. 
+
+4.2 Convenience & User Protection
+use relative sizing to allow user to visit the website in any device. the system does not have an authentication system, hence users are perfectly save without any risk of information leaking. 
+
 <hr />
 
 # Design Ideas
 
+home page
+	display carousel to show special dishes, provide links to social media. 
+about page 
+	provide video. 
+services page 
+	offers customers with menu, each dish has a price and an image. 
+feedback page 
+	allow user to contact developer in noreply. 
+
 <hr />
 
 # Software Solution
+
+
 
 <hr />
 
@@ -132,7 +207,7 @@ for customers to checkout discounts, events, order food and give feedback.
 #### Sat 3 Apr 9\:40~10\:16
 
 > * services app\: shopping-cart auto-indexial change waiting for optimization 
-	
+
 #### Mon 5 Apr 4\:30~4\:53
 
 > * services app\: seperate into sections\: bbq, beverage and dessert
@@ -237,3 +312,10 @@ for customers to checkout discounts, events, order food and give feedback.
  
 	> article: Sample Texts for Restaurants to Run Successful SMS Campaign
 	> url: https://medium.com/@sm.adnsms/sample-texts-for-restaurants-to-run-successful-sms-campaign-b60a81baf61d
+
+
+
+<!-- 
+diagrams drawn using
+https://www.diagrameditor.com
+ -->
