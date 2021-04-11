@@ -140,7 +140,7 @@
 
 # Context Diagram
 
-![context-diagram](static/context-diagram)
+![context-diagram](static/context-diagram.png)
 
 <hr />
 
