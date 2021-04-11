@@ -72,12 +72,12 @@
 # Data Collection
 
 <table>
-	<tr>
+	<th>
 		<td>Data Needed</td>
 		<td>Data Sources</td>
 		<td>Collection Method</td>
 		<td>Justification</td>
-	</tr>
+	</th>
 	<tr>
 		<td>Customer amount in differnt period</td>
 		<td>Record</td>
@@ -88,7 +88,7 @@
 		<td>popular BBQ dishes</td>
 		<td>Internet</td>
 		<td>Research</td>
-		<td>some sample dishes</td>
+		<td>create sample dishes</td>
 	</tr>
 	<tr>
 		<td>restaurant discounts styles</td>
@@ -200,11 +200,146 @@
 
 # Software Solution
 
+<table>
+	<th>
+		<td>Question</td>
+		<td>Justification</td>
+		<td>The process used to evaluate the success of the product</td>
+		<td>How the finish product would be tested or checked</td>
+	</th>
+	<tr>
+		<td>Validation(Will user mistakenly select a decimal or negative number as quantity to order?)</td>
+		<td>User should only entry natural number indicate quantity</td>
+		<td>check by different input</td>
+		<td>make sure error is reported when an invalid quantity is entried</td>
+	</tr>
+	<tr>
+		<td>Completeness (Were all of the functional and non-functional requirements that were required by the client implemented in the software system?)</td>
+		<td>The software solution will be fully functional, during testing, no error allowed. It needs to meet the requirements listed by client in SRS. </td>
+		<td>How many errors appears when test the result. </td>
+		<td>Make sure there are no errors in anywhere in the program when publish. </td>
+	</tr>
+	<tr>
+		<td>Readability (Can every part of the software program be easily read by its users? Are the fonts chosen appropriate in size and face to the system on which the software is installed? Are contrast ratios acceptable?Is the text colour readable against the background colour?)</td>
+		<td>User friendly interface is required. The main target audience is households that have pets, the way of online booking needs to be as simple as possible. </td>
+		<td>Ask user for views of the information to improve clarity. </td>
+		<td>All background colour doesn’t blur with foreground colour, all fonts are adjusted to appropriate size. </td>
+	</tr>
+	<tr>
+		<td>Attractiveness (Are the colours used throughout the software complementary? Are the colour choices appropriate to the context?)</td>
+		<td>For user experience, the interface must be visual appealing and interactive. </td>
+		<td>As client for opinion on visual effect. Justify fonts and background colours to appropriate. </td>
+		<td>The layout is simple and straight-forward.</td>
+	</tr>
+	<tr>
+		<td>Clarity (Is the language used in the software age-appropriate? Are headings, labels and buttons consistently used throughout the software?)</td>
+		<td>Make sure all information in the page is clear enough. No mis-spelling words or blurred areas. </td>
+		<td>Make sure the website doesn’t contain any spam information. </td>
+		<td>All headings, labels and buttons should be adjusted in appropriate size. </td>
+	</tr>
+	<tr>
+		<td>Functionality (Does the system respond appropriate to user input errors? What percentage of uptime does the software have?)</td>
+		<td>User input needs to be validated. </td>
+		<td>Validate email by regex. Validate unexpected result by showing a warning. </td>
+		<td>Input dummy data to the form to check if there is any warning. </td>
+	</tr>
+	<tr>
+		<td>Accuracy (Is all of the data stored accurate in relation to how it was entered? Are all calculations accurate 100% of the time? Are all reports produced within the correct data ranges, including boundary values?)</td>
+		<td>Use a foreign key to link a user with all the data belongs to him/her. </td>
+		<td>Test multiple times, check the outcome if it is the expected result. Apply encoding of base64 for user id. Utilize transform layer security on password reset.  </td>
+		<td>Check output report to see if there are any error or unwanted data. </td>
+	</tr>
+	<tr>
+		<td>Accessibility (How well can the system be accessed by someone who is hearing impaired or vision impaired? Does the solution use a colour-blind safe palette? Do all images have an Alt-tags? Will a screen reader work with your solution?)</td>
+		<td>Anyone who have internet access will be able to access our service. </td>
+		<td>Show warning if frontend is not supported by the browser </td>
+		<td>Try to access the website from another mobile device to check if it still fits the requirements. </td>
+	</tr>
+	<tr>
+		<td>Timeliness (Does the software respond to requests within an acceptable timeframe?)</td>
+		<td>Each developing step should follow the Gannt chart. </td>
+		<td>Make sure each developing step is finished in time. Update Gannt chart as each step finishes.</td>
+		<td>Check timeline to mark finish and overdue. </td>
+	</tr>
+</table>
 
+<hr />
+
+# Test Procedure
+
+1. clone the repo
+2. open `home.html`, the 3 stripes in the rightward will direct you to corresponding page. if you click on the logo, it directs you back to the home page. 
+3. in home page, clicking on icons below will direct to corresponding contact channel. 
+4. in about page, the slider each contains a video and a text introduction. 
+5. in services page, all products are divided into 3 parts: BBQ, beverage and dessert. select items, after that, when you open your trolley, you can see the items you've selected. 
+6. in feedback page, you can rate the website and write a suggestion.
 
 <hr />
 
 # Evaluation
+
+<table>
+	<th>
+		<td>Criteria</td>
+		<td>measure efficiency and effectiveness</td>
+		<td>how the solution meets the criteria</td>
+		<td>functional and non-functional requirements</td>
+	</th>
+	<tr>
+		<td>Validation(Will user mistakenly select a decimal or negative number as quantity to order?)</td>
+		<td>effective</td>
+		<td>when user entry invalid input, error message shows up</td>
+		<td>sufficient effectiveness</td>
+	</tr>
+	<tr>
+		<td>Completeness (Were all of the functional and non-functional requirements that were required by the client implemented in the software system?)</td>
+		<td>all the functionalities work</td>
+		<td>frontend works</td>
+		<td>lack of effectiveness since lack of backend</td>
+	</tr>
+	<tr>
+		<td>Readability (Can every part of the software program be easily read by its users? Are the fonts chosen appropriate in size and face to the system on which the software is installed? Are contrast ratios acceptable?Is the text colour readable against the background colour?)</td>
+		<td>For a nice and clear experience, make things clear as possible.</td>
+		<td>All information are clearly shown</td>
+		<td>Image slider, navigation bar and booking forms are apparent and straight-forward</td>
+	</tr>
+	<tr>
+		<td>Attractiveness (Are the colours used throughout the software complementary? Are the colour choices appropriate to the context?)</td>
+		<td>frontend is based on well-designed color platte</td>
+		<td>dynamic and visual-appearing</td>
+		<td>Propaganda for the business in succeed.</td>
+	</tr>
+	<tr>
+		<td>Clarity (Is the language used in the software age-appropriate? Are headings, labels and buttons consistently used throughout the software?)</td>
+		<td>All compositions are age relevant </td>
+		<td>apply colour and hue in a warm fashion </td>
+		<td>User know where to focus</td>
+	</tr>
+	<tr>
+		<td>Functionality (Does the system respond appropriate to user input errors? What percentage of uptime does the software have?)</td>
+		<td>user can only check out infomation but order due to the lack of backend</td>
+		<td>missing order function</td>
+		<td>insufficient since one important function is missing currently</td>
+	</tr>
+	<tr>
+		<td>Accuracy (Is all of the data stored accurate in relation to how it was entered? Are all calculations accurate 100% of the time? Are all reports produced within the correct data ranges, including boundary values?)</td>
+		<td>each food item is separated into right category</td>
+		<td>the trolley displays the right selected items</td>
+		<td>sufficient effectiveness</td>
+	</tr>
+	<tr>
+		<td>Accessibility (How well can the system be accessed by someone who is hearing impaired or vision impaired? Does the solution use a colour-blind safe palette? Do all images have an Alt-tags? Will a screen reader work with your solution?)</td>
+		<td>None of the feature attributes to help disabled people to understand the page.</td>
+		<td>audio trace can to be approved next time. </td>
+		<td>sufficient for standard customers</td>
+	</tr>
+	<tr>
+		<td>Timeliness (Does the software respond to requests within an acceptable timeframe?)</td>
+		<td>Some of the schedules do not match the gannt chart</td>
+		<td>planning and debugging causes more time than I thought</td>
+		<td>sufficient because the project is finished way earlier than deadline</td>
+	</tr>
+</table>
 
 <hr />
 
