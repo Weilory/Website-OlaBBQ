@@ -71,6 +71,51 @@
 
 # Data Collection
 
+<table>
+	<tr>
+		<td>Data Needed</td>
+		<td>Data Sources</td>
+		<td>Collection Method</td>
+		<td>Justification</td>
+	</tr>
+	<tr>
+		<td>Customer amount in differnt period</td>
+		<td>Record</td>
+		<td>Observation</td>
+		<td>manage traffic handling</td>
+	</tr>
+	<tr>
+		<td>popular BBQ dishes</td>
+		<td>Internet</td>
+		<td>Research</td>
+		<td>some sample dishes</td>
+	</tr>
+	<tr>
+		<td>restaurant discounts styles</td>
+		<td>Internet</td>
+		<td>Research</td>
+		<td>integrite sales strateges on placing an order</td>
+	</tr>
+	<tr>
+		<td>Customers' ages</td>
+		<td>Record</td>
+		<td>Observation</td>
+		<td>get to know the target audience therefore wisely distribute recomendation</td>
+	</tr>
+	<tr>
+		<td>Restaurant's popular dishes</td>
+		<td>client</td>
+		<td>interview</td>
+		<td>put them on special</td>
+	</tr>
+	<tr>
+		<td>Customer's tech choice</td>
+		<td>costumers</td>
+		<td>questionnaire</td>
+		<td>get to know what type of devices customers majorly use</td>
+	</tr>
+</table>
+
 <hr />
 
 # Context Diagram
