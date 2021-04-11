@@ -1,3 +1,19 @@
+1. Developer
+* Messiz YiQi Qin
+
+2. Organization
+* Taylors College
+
+3. Languages
+* HTML5
+* ECMAScript6
+* CSS3
+
+4. Frameworks
+* [font awesome](https://fontawesome.com/icons?d=gallery)
+
+<hr />
+
 # Design Brief
 
 > Ola is a Brazilian barbeque resturant which located in Australia. Recently they are expanding their business, which requires a website for costumers to check out discounts and events, ordering online and give feedback. 
