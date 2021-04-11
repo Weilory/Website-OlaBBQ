@@ -152,14 +152,21 @@ use relative sizing to allow user to visit the website in any device. the system
 
 # Design Ideas
 
-home page
-	display carousel to show special dishes, provide links to social media. 
-about page 
-	provide video. 
-services page 
-	offers customers with menu, each dish has a price and an image. 
-feedback page 
-	allow user to contact developer in noreply. 
+* home page
+
+* * display carousel to show special dishes, provide links to social media. 
+
+* about page 
+
+* * provide video. 
+
+* services page 
+
+* * offers customers with menu, each dish has a price and an image. 
+
+* feedback page 
+
+* * allow user to contact developer in noreply. 
 
 <hr />
 
