@@ -72,12 +72,12 @@
 # Data Collection
 
 <table>
-	<th>
-		<td>Data Needed</td>
-		<td>Data Sources</td>
-		<td>Collection Method</td>
-		<td>Justification</td>
-	</th>
+	<tr>
+		<th>Data Needed</th>
+		<th>Data Sources</th>
+		<th>Collection Method</th>
+		<th>Justification</th>
+	</tr>
 	<tr>
 		<td>Customer amount in differnt period</td>
 		<td>Record</td>
@@ -201,12 +201,12 @@
 # Software Solution
 
 <table>
-	<th>
-		<td>Question</td>
-		<td>Justification</td>
-		<td>The process used to evaluate the success of the product</td>
-		<td>How the finish product would be tested or checked</td>
-	</th>
+	<tr>
+		<th>Question</th>
+		<th>Justification</th>
+		<th>The process used to evaluate the success of the product</th>
+		<th>How the finish product would be tested or checked</th>
+	</tr>
 	<tr>
 		<td>Validation(Will user mistakenly select a decimal or negative number as quantity to order?)</td>
 		<td>User should only entry natural number indicate quantity</td>
@@ -279,12 +279,12 @@
 # Evaluation
 
 <table>
-	<th>
-		<td>Criteria</td>
-		<td>measure efficiency and effectiveness</td>
-		<td>how the solution meets the criteria</td>
-		<td>functional and non-functional requirements</td>
-	</th>
+	<tr>
+		<th>Criteria</th>
+		<th>measure efficiency and effectiveness</th>
+		<th>how the solution meets the criteria</th>
+		<th>functional and non-functional requirements</th>
+	</tr>
 	<tr>
 		<td>Validation(Will user mistakenly select a decimal or negative number as quantity to order?)</td>
 		<td>effective</td>
@@ -483,9 +483,9 @@
 	> article: Sample Texts for Restaurants to Run Successful SMS Campaign
 	> url: https://medium.com/@sm.adnsms/sample-texts-for-restaurants-to-run-successful-sms-campaign-b60a81baf61d
 
+### Tools used
 
+#### (1)
 
-<!-- 
-diagrams drawn using
-https://www.diagrameditor.com
- -->
+	> [draw context, data-flow, user-cases diagrams](https://www.diagrameditor.com)
+
