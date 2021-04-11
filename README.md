@@ -152,7 +152,7 @@
 
 # User Cases Diagram
 
-![user-cases-diagram](static/user-cases-diagram)
+![user-cases-diagram](static/user-cases-diagram.png)
 
 <hr />
 
