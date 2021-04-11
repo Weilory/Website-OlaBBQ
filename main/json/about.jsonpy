@@ -1,0 +1,22 @@
+[
+	{
+		"src": "ola.mp4",
+		"text": "<b>Weekly Specials: </b>slow-cooked ribs and royal lobster at discounted prices. Too tasty to share! Grab yours for 20% off only at <b>Ola BBQ</b>.",
+		"vertical": true,
+	}, 
+	{
+		"src": "ola-chief.mp4",
+		"text": "<b>Only for Students: </b>Longing for your mom’s amazing dishes? We promise ours are almost as tasty! Enjoy lunch at <b>Ola BBQ</b> between 12 pm and 2 pm and benefit from a 25% discount.",
+		"vertical": false,
+	}, 
+	{
+		"src": "ola-food.mp4",
+		"text": "<b>Limited Time Discounts: </b> Only until 6 pm: Buy two pizzas before 6 pm and get the third one for free. Only at <b>Ola BBQ</b>. Please visit now for the amazing offers.",
+		"vertical": true,
+	}, 
+	{
+		"src": "ola-menu.mp4",
+		"text": "<b>Events: </b> <b>Ola BBQ</b> — Come down for some soft blues on Friday between 6 pm and 9 pm. First drink’s on us! Show this SMS to redeem your prize.",
+		"vertical": false,
+	}, 
+]
