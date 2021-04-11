@@ -11,6 +11,8 @@
 * ECMAScript6
 * CSS3
 
+
+
 4. Frameworks
 * [font awesome](https://fontawesome.com/icons?d=gallery)
 
@@ -24,7 +26,7 @@
 
 # Gannt Chart
 
-![gannt chart](https://github.com/Weilory/Website-OlaBBQ/tree/main/static/gannt-chart.png)
+![gannt chart](static/gannt-chart.png)
 
 <hr />
 
