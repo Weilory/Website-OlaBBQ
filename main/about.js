@@ -997,7 +997,7 @@ setTimeout(()=>{
       obj.vertical,
     );
   });
-}, 500);
+}, 1000);
 
 
 
