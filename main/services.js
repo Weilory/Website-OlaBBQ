@@ -387,7 +387,7 @@ class Info{
     Info._instance = this;
   }
 
-  addInfo(category, content, callback){
+  addInfo(category, content, callback=()=>{}){
     switch(category){
       case "warn":
         this.info.push(new InfoWarn(content, callback));
